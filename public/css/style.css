@@ -19232,3 +19232,7 @@ footer .footer-navbar .nav-item:last-child a {
 .footer-demo img {
   max-height: 55px !important;
 }
+
+footer div div:nth-child(2) div p:hover {
+  color: black;
+}

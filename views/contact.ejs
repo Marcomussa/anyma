@@ -1,7 +1,7 @@
 ﻿<!doctype html>
 <html class="no-js" lang="en">
     <head>
-        <title>Anyma Develpoment - Home</title>
+        <title>Anyma Develpoment - Contacto</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="author" content="ThemeZaa">
@@ -21,14 +21,14 @@
             <div class="container">
                 <div class="row align-items-center justify-content-center extra-very-small-screen">
                     <div class="col-xl-8 col-lg-10 text-center position-relative page-title-extra-large" data-anime='{ "el": "childs", "translateY": [-15, 0], "opacity": [0,1], "duration": 300, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                        <h1 class="fw-700 text-dark-gray mb-20px ls-minus-2px">Contact</h1>
-                        <h2 class="fw-400 ls-0px mb-0">We'd love to hear from you</h2>
+                        <h1 class="fw-700 text-dark-gray mb-20px ls-minus-2px">Formulario</h1>
+                        <h2 class="fw-400 ls-0px mb-0">Nos encantaría saber de ti</h2>
                     </div>
                 </div>
             </div>
         </section>
         <!-- end page title -->
-        <!-- start section -->
+        <!-- start section 
         <section class="p-0">
             <div class="container">
                 <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 mt-4 justify-content-center" data-anime='{ "el": "childs", "translateY": [0, 0], "opacity": [0,1], "duration": 300, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
@@ -46,8 +46,7 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- end section -->
+        </section>-->
         <!-- start section 
         <section class="pt-4 lg-pt-65px">
             <div class="container">
@@ -121,28 +120,28 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xl-5 col-lg-6">
-                        <h2 class="text-dark-gray fw-600 mb-10 ls-minus-2px">Let us help you get your project started.</h2>
+                        <h2 class="text-dark-gray fw-600 mb-10 ls-minus-2px">Estamos para ayudar en su proyecto.</h2>
                         <div class="outside-box-left-35 d-none d-lg-inline-block">
-                            <div class="fs-350 xl-fs-300 lg-fs-250 text-base-color fw-600 ls-minus-20px word-break-normal" data-bottom-top="transform:scale(1, 1) translate3d(0px, 0px, 0px);" data-top-bottom="transform:scale(1, 1) translate3d(-100px, 0px, 0px);">contact</div>
+                            <div class="fs-350 xl-fs-300 lg-fs-250 text-base-color fw-600 ls-minus-20px word-break-normal" data-bottom-top="transform:scale(1, 1) translate3d(0px, 0px, 0px);" data-top-bottom="transform:scale(1, 1) translate3d(-100px, 0px, 0px);">contacto</div>
                         </div>
                     </div>
                     <div class="col-lg-5 offset-lg-1 contact-form-style-03" data-anime='{ "el": "childs", "translateY": [-15, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                        <h6 class="fw-500 text-dark-gray mb-20px sm-mb-10px ls-minus-05px"><span class="fw-700">Hello,</span> Tell us about your project.</h6>
-                        <form action="email-templates/contact-form.php" method="post">
+                        <h6 class="fw-500 text-dark-gray mb-20px sm-mb-10px ls-minus-05px"><span class="fw-700">Hola,</span> hablanós de tu proyecto.</h6>
+                        <form id="contact-form">
                             <div class="position-relative form-group mb-20px">
                                 <span class="form-icon"><i class="bi bi-person icon-extra-medium text-dark-gray"></i></span>
-                                <input class="ps-0 border-radius-0px border-color-dark-gray form-control required" type="text" name="name" placeholder="Your name*" />
+                                <input class="ps-0 border-radius-0px border-color-dark-gray form-control required" type="text" name="name" placeholder="Tu Nombre*" id="name-form"/>
                             </div>
                             <div class="position-relative form-group mb-20px">
                                 <span class="form-icon"><i class="bi bi-envelope icon-extra-medium text-dark-gray"></i></span>
-                                <input class="ps-0 border-radius-0px border-bottom border-color-dark-gray form-control required" type="email" name="email" placeholder="Your email address*" />
+                                <input class="ps-0 border-radius-0px border-bottom border-color-dark-gray form-control required" type="email" name="email" placeholder="Tu Email*" id="email-form"/>
                             </div>
                             <div class="position-relative form-group form-textarea mb-0"> 
-                                <textarea class="ps-0 border-radius-0px border-bottom border-color-dark-gray form-control" name="comment" placeholder="Your message" rows="4"></textarea>
+                                <textarea class="ps-0 border-radius-0px border-bottom border-color-dark-gray form-control required" name="comment" placeholder="Mensaje*" rows="4" id="text-form"></textarea>
                                 <span class="form-icon"><i class="bi bi-chat-square-dots icon-extra-medium text-dark-gray"></i></span>
                                 <input type="hidden" name="redirect" value="">
-                                <button class="btn submit btn-small btn-dark-gray btn-box-shadow btn-round-edge mt-35px mb-25px w-100" type="submit">Send message</button>
-                                <p class="fs-14 lh-24 w-100 mb-0 text-center text-lg-start">We are committed to protecting your privacy. We will never collect information about you without your explicit consent.</p>
+                                <button class="btn submit btn-small btn-dark-gray btn-box-shadow btn-round-edge mt-35px mb-25px w-100" type="submit">Enviar Mensaje</button>
+                                <p class="fs-14 lh-24 w-100 mb-0 text-center text-lg-start">Estamos comprometidos a proteger su privacidad. Nunca recopilaremos información sobre usted sin su consentimiento explícito.</p>
                                 <div class="form-results mt-20px d-none"></div>
                             </div>
                         </form>
