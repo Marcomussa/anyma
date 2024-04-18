@@ -19236,3 +19236,25 @@ footer .footer-navbar .nav-item:last-child a {
 footer div div:nth-child(2) div p:hover {
   color: black;
 }
+
+.main-btn {
+  text-align: center;
+  margin-top: -100px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.main-btn a {
+  font-size: 16px !important;
+}
+
+.main-btn a span {
+  width: 60px !important;
+  height: 60px !important;
+}
+
+.why-us-web-first{
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 35px;
+}
