@@ -88,6 +88,9 @@ Table of contents
 /* ===================================
     03. Reset
 ====================================== */
+.header-button {
+  margin-top: -12.5px;
+}
 .alt-font {
   font-family: var(--alt-font);
 }
@@ -213,7 +216,7 @@ video {
   font-weight: inherit;
 }
 h1, .h1 {
-  font-size: 4.375rem;
+  font-size: 3.375rem;
   line-height: 4.375rem;
 }
 h2, .h2 {
@@ -19239,8 +19242,7 @@ footer div div:nth-child(2) div p:hover {
 
 .main-btn {
   text-align: center;
-  margin-top: -100px;
-  padding-bottom: 50px;
+  margin-top: -50px;
   padding-top: 50px;
 }
 
